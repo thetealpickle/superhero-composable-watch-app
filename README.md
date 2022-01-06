@@ -19,7 +19,7 @@ In this experiment I built `SuperheroFoundation` implemented with the swift comp
 The app populates with a sample row. Clicking on the `+` button on the ios app or `another one` on the watch app eventually triggers the `Home.Effect` performing the network call to retrieve another superhero.
 
 ## Setup 
-The Superhero API requires an access token. To create a token head over to the Superhero API and login with your Facebook.
+The Superhero API requires an access token. To create a token head over to the [Superhero API](https://superheroapi.com) and login with your Facebook.
 
 With your token on standby and the Xcode project open, head to the scheme you'd like to run [iOS target or Watch target] and click `Edit Scheme...`.
 
@@ -30,6 +30,12 @@ Okay, that's all. You're ready to soar with the heros 🦸🏾‍♀️
 
 ## Current
 Currently the app has two tabs on the ios target and three tabs on the watch extension.
+
+<p float="left">
+<img src="https://user-images.githubusercontent.com/10859803/148441199-d688925a-abac-4c49-b680-39d6c219708a.png" width="200">
+<img src="https://user-images.githubusercontent.com/10859803/148441196-feb7b280-8337-42fd-a0bc-600136337cb6.png" width="150">
+<img src="https://user-images.githubusercontent.com/10859803/148441198-b1f0f0b5-d543-470d-b1a2-7b0377855981.png" width="150">
+</p>
 
 - Click on the `+` we get a new hero added to the list
 - Click on the 🔍, we'll see a console log
@@ -44,8 +50,8 @@ There is a view update bug (🐛 ew) where the state updates - you'll notice the
 
 
 ## Additional Resources 
-- The Composable Architecture Repo
-- Superhero API 
+- [Swift Composable Architecture Repo](https://github.com/pointfreeco/swift-composable-architecture)
+- [Superhero API](https://superheroapi.com) 
 
 ## Current Thoughts 
 < 2 weeks: 
